@@ -1,0 +1,123 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+	line-height:1.6;
+}
+
+.container{
+    width: 840px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 10px;
+    flex-direction:row;
+    font-family:sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+	
+   
+}
+
+h2 {
+	font-size:30px;
+}
+
+.em {
+	font-style:italic;
+}
+
+button {
+
+	border: black 2px;
+	color: black;
+	box-shadow: black 3px 5px;
+	padding:5px 10px 5px 10px;
+	
+}
+
+#headbar {
+	 width: 840px;
+	 height:100 px;
+	 background-color: lightgray;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+}
+
+#content{
+	
+	width: 840px;
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+	align-items: flex-start;
+}
+
+#column1 {
+		display: flex;
+		flex:2;
+		flex-direction:column;
+		padding:10px;
+
+}
+
+#column2 {
+		display: flex;
+		flex:1;
+		flex-direction:column;
+		padding:10px;
+		
+}
+
+#definedby
+{
+	border: 2px solid black;
+		margin:20px;
+				padding:10px;
+}
+
+.definitionbox
+{
+	border: 2px solid black;
+	margin:20px;
+	display:flex;
+	flex-direction:row;
+	padding:10px;
+	justify-content:space-between;
+}
+
+.wordcol
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:start;
+	padding:5px;
+	flex:1;
+}
+
+.defcol
+{
+	display:inline;	
+	align-items:center;
+	justify-content:start;
+	flex:2;
+	padding:5px;
+}
+
+#loginbtn {
+		background-color:lightblue;
+		
+}
+
+#adddef {
+		background-color:lightgreen;
+		
+}
+
+.likebutton {
+	background-color:gold;
+}
+
