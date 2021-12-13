@@ -5,16 +5,17 @@
     <meta charset="utf-8"/>
     <title>Dojonary</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-<script src="script.js"></script>
+
 <div class="container">
 	<div id="headbar">
 		<h1>Dojonary</h1>
-		<form>
+	
 			<input type="text" id="searchbar">
-			<button id="loginbtn">Login</button>
-		</form>
+			<button id="loginbtn" onclick="changeText(this)">Login</button>
+	
 	</div>
 	<div id="content">
 		<div id="column1">
@@ -23,7 +24,7 @@
 				<h2>ninja</h2>
 				<p class="em">noun</p>
 				<p>Plural: ninjas</p>
-				<button class="likebutton">13 likes</button>
+				<button class="likebutton" onclick="alert('Ninja was liked')">13 likes</button>
 				</div>
 				<div class="defcol">
 				A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.
@@ -34,7 +35,7 @@
 				<h2>ninja</h2>
 				<p class="em">noun</p>
 				<p>Plural: ninjas</p>
-				<button class="likebutton">37 likes</button>
+				<button class="likebutton" onclick="alert('Ninja was liked')">37 likes</button>
 				</div>
 				<div class="defcol">
 				A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.
@@ -44,10 +45,11 @@
 		<div id="column2">
 			<div id="definedby">
 			<p>Dojonary is defined by YOU</p>
-			<button id="adddef">Add Definition</button>
+			<button id="adddef" onclick="vanish(this)">Add Definition</button>
 			</div>
 		</div>
     </div>
 	</div>
+
 </body>
 </html>
