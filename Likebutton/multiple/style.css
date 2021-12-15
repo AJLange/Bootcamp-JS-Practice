@@ -1,0 +1,106 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+	line-height:1.6;
+	
+}
+
+#headbar
+{
+	color:white;
+	background-color:black;
+	height:60px;
+	width:840px;
+	font-size:40px;
+	display:flex;
+	flex-direction:flex-start;
+	padding:5px;
+}
+
+#pagedata{
+display:flex;
+flex-direction:row;	
+}
+
+.container{
+    width: 840px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 30px;
+    flex-direction:column;
+    font-family:sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items:center;  
+}
+
+.userpic
+{
+	width:100px;
+	border:0;
+}
+
+#leftcol
+{
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	align-items:center;
+	
+}
+
+.profile
+{
+	border: 3px solid black;
+	margin: 10px;
+	align-items:center;
+	justify-content:flex-start;
+	padding:5px;
+	display:flex;
+	flex-direction:column;
+}
+
+#rightcol{
+	flex-direction:column;
+	display:flex;
+	flex:3;
+}
+
+.content {
+	border: 3px solid black;
+	padding:10px;
+	width:500px;
+	display:flex;
+	flex-direction:column;
+	margin:10px;
+}
+
+.topline{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.fillertext{
+	font-size:18px;
+}
+
+button {
+	background-color:gold;
+	border: 2px solid black;
+	cursor:pointer;
+}
+
+.likes
+{
+	display:flex;
+	flex-direction:row;
+	margin:0px;
+}
+
+.likebutton {
+	width:80px;
+	padding:5px;
+}
